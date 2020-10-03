@@ -93,6 +93,20 @@ After that you can notice that `mvn k8s:resource` goal would generate `Service` 
 
 ![Elipse JKube Resource](screenshots/undeploy.png)
 
+
+
+    Debug your Java application inside Kubernetes. Apart from these goals, we also have a goal for remote debugging. Suppose that you see a bug inside your application that’s running inside Kubernetes and you want to debug its behavior. You can simply run our debug goal, which does port forwarding for debugging:
+
+>mvn k8s:debug
+
+    Configure your IDE in order to connect to this open port for debugging, as shown in Figure 6:
+
+ Configuring your IDE to debug application inside Kubernetes.
+
+    Set a breakpoint in the application code and hit the application endpoint. We can see the breakpoint being hit in IDE as shown in Figure 7:
+
+>: Configuring your IDE to debug an application running inside Kubernetes.
+
 ## Deploying on Red Hat OpenShift
 [Red Hat OpenShift](https://www.openshift.com/) is Red Hat's official distribution of Kubernetes which empowers developers to innovate and ship faster with the leading hybrid cloud, enterprise container platform.
 
