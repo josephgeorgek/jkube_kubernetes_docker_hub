@@ -2,16 +2,8 @@
 
 
 
-> Note: This a demo project for [Eclipse JKube](https://github.com/eclipse/jkube) for a blog. You can find full blog here: [Introduction to Eclipse JKube: Java tooling for Kubernetes/OpenShift](https://developers.redhat.com/blog/2020/01/28/introduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift/)
 
-<p align="center">
-  <a href="https://www.eclipse.org/jkube/">
-  	<img src="https://miro.medium.com/max/421/1*GfZvJR1B7wFeLnaNJUaboA.png" width="350" alt="Eclipse JKube"/>
-  </a>
-</p>
-
-This is a simple random number generation application which just generates a random string on `/random` endpoint. It just
-demonstrates usage of Eclipse JKube: https://github.com/eclipse/jkube
+This is a simple random number generation application which just generates a random string on `/random` endpoint. 
 
 ## Table of Contents:
 * [How to Build](#How-to-build)
